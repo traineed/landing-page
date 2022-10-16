@@ -1,0 +1,33 @@
+body {
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  background-color: #1f2937;
+  color: white;
+}
+header,
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: auto;
+  padding: 8px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 100%;
+  color: #f9faf8;
+}
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+button {
+  background-color: #3882f6;
+}
